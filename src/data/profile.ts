@@ -6,43 +6,31 @@ import {
     FaSquareFacebook,
 } from "react-icons/fa6";
 
+import profileImg from "./images/profile.png";
+import resumePdf from "./images/chia-ling-resume.pdf";
 
 export const UserInfo = {
-    name: "Pin-Yen Huang",
-    profile_url: "https://github.com/pm25.png",
-    headline: "Student @ National Taiwan University",
-    email: "pyhuang97@gmail.com",
+    name: "Chia-Ling Hsu",
+    profile_url: profileImg,
+    headline: "Student @ National Chengchi University",
+    email: "sum3439@gmail.com",
     links: [
         {
             name: "LinkedIn",
-            url: "https://www.linkedin.com/in/py-huang",
+            url: "https://www.linkedin.com/in/chialinghsu-tw",
             icon: FaLinkedin,
         },
         {
-            name: "Google Scholar",
-            url: "https://scholar.google.com.tw/citations?user=nQdpH2MAAAAJ",
-            icon: FaGoogleScholar,
-        },
-        {
             name: "Résumé",
-            url: "https://pm25.github.io/static/media/cv_v3.1ac3c71f.pdf",
+            url: resumePdf,
             icon: FaRegIdBadge,
-        },
-        {
-            name: "Github",
-            url: "https://github.com/pm25",
-            icon: FaGithub,
-        },
-        {
-            name: "Facebook",
-            url: "https://www.facebook.com/pyhuang97",
-            icon: FaSquareFacebook,
-        },
+        }
     ],
     // you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
     biography: `
-        Hi! I'm [Your Name], a [Your Title] passionate about [field or topic]. I'm currently working as [current role] at [organization or context], where I [briefly describe your work or mission]. With a background in [academic or professional background], I've developed a strong interest in [key interests or specialties], and have worked on projects like <i>[example project]</i> and <i>[another example]</i>, all centered around [what ties them together or your broader goal].
+        Hi! I'm Chia-Ling, an MBA student at National Chengchi University (NCCU). I view challenges as opportunities to grow and enjoy combining creativity with analytical thinking to solve problems. With experience in data analysis, marketing support, and team leadership, I bring a balanced approach that blends strategy and imagination. I'm passionate about collaboration and always eager to learn.
         <div class="my-2"></div>
-        Outside of work, I enjoy [hobbies or personal interests], which keep me grounded and spark new ideas. Thanks for visiting! Feel free to <a href="[contact link or email]" target="_blank" rel="noopener noreferrer">get in touch</a> if you'd like to connect.
+        <div class="my-2"></div>
+        Outside of work, I love dancing - it keeps me grounded and often sparks new ideas. Thanks for stopping by!
     `
 }
