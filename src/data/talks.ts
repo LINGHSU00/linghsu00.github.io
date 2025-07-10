@@ -1,6 +1,6 @@
 export const TalksData = [
     {
-        title: "YYEF Startup Competition",
+        title: "YEF Startup Competition",
         location: "Team Leader, 2nd Place",
         date: "2024",
     },
