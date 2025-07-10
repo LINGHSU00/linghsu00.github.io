@@ -1,4 +1,4 @@
-export const TalksData = [
+export const AwardsData = [
     {
         title: "YEF Startup Competition",
         location: "Team Leader, 2nd Place",
@@ -8,6 +8,6 @@ export const TalksData = [
         title: "NCCU Alpha Business Challenge",
         location: "1st Place",
         date: "2020",
-        image: "https://pm25.github.io/static/media/2019-9-4-workshop.b5d2675f.webp",
+        image: "https://example.com",
     },
 ];

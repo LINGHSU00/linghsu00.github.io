@@ -2,7 +2,7 @@ import { useState } from "react";
 import { MdCoPresent } from "react-icons/md";
 import { FaRegCalendar } from "react-icons/fa6";
 
-import { TalksData } from "@/data/talks";
+import { AwardsData } from "@/data/awards";
 
 export default function Awards() {
     const [selectedTalk, setSelectedTalk] = useState<number | null>(null);
@@ -19,7 +19,7 @@ export default function Awards() {
             </div>
 
             <div className="px-2 sm:px-6">
-                {TalksData.map((talk, index) => (
+                {AwardsData.map((talk, index) => (
                     <div
                         key={index}
                         className={`flex flex-col gap-4 py-2 px-4 rounded-md ${
