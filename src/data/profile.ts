@@ -1,9 +1,6 @@
 import {
     FaLinkedin,
-    FaGoogleScholar,
     FaRegIdBadge,
-    FaGithub,
-    FaSquareFacebook,
 } from "react-icons/fa6";
 
 import profileImg from "./images/profile.png";
@@ -29,7 +26,7 @@ export const UserInfo = {
     // you can use HTML syntax here (e.g. <br/>, <a>, <strong>, ...)
     biography: `
         Hi! I'm Chia-Ling, an MBA student at National Chengchi University (NCCU). I view challenges as opportunities to grow and enjoy combining creativity with analytical thinking to solve problems. With experience in data analysis, marketing support, and team leadership, I bring a balanced approach that blends strategy and imagination. I'm passionate about collaboration and always eager to learn.
-        <div class="my-2"></div>
+        <br/>
         <div class="my-2"></div>
         Outside of work, I love dancing - it keeps me grounded and often sparks new ideas. Thanks for stopping by!
     `

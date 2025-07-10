@@ -4,7 +4,7 @@ import { FaRegCalendar } from "react-icons/fa6";
 
 import { TalksData } from "@/data/talks";
 
-export default function Talk() {
+export default function Awards() {
     const [selectedTalk, setSelectedTalk] = useState<number | null>(null);
 
     const handleTalkClick = (index: number) => {
@@ -15,7 +15,7 @@ export default function Talk() {
         <div className="w-full max-w-5xl space-y-6">
             <div className="flex flex-row justify-center items-center gap-2 text-plus font-semibold">
                 <MdCoPresent />
-                Presentations / Talks
+                Awards/Activities
             </div>
 
             <div className="px-2 sm:px-6">

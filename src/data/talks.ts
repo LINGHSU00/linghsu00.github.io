@@ -1,13 +1,13 @@
 export const TalksData = [
     {
-        title: "Cost Learning Network for Imbalanced Classification",
-        location: "Taiwanese Association for Artificial Intelligence (TAAI)",
-        date: "Dec 4, 2020",
+        title: "YYEF Startup Competition",
+        location: "Team Leader, 2nd Place",
+        date: "2024",
     },
     {
-        title: "Deep Learning with Keras",
-        location: "University of Illinois Urbana-Champaign (UIUC), Prof. Stephen Boppart's Group",
-        date: "Sep 4, 2019",
+        title: "NCCU Alpha Business Challenge",
+        location: "1st Place",
+        date: "2020",
         image: "https://pm25.github.io/static/media/2019-9-4-workshop.b5d2675f.webp",
     },
 ];

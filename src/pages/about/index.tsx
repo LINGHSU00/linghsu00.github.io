@@ -3,9 +3,7 @@ import { usePageTitle } from "@/hooks/use-pagetitle";
 
 import Introduction from "./sections/introduction";
 import Experience from "./sections/experience";
-import Publication from "./sections/publication";
-import Project from "./sections/project";
-import Talk from "./sections/talk";
+import Awards from "./sections/awards";
 
 export default function About() {
     usePageTitle("About Me");
@@ -14,12 +12,8 @@ export default function About() {
         <div className="flex flex-1 flex-col items-center gap-12">
             <Introduction />
             <Experience />
-            {/* <Separator orientation="horizontal" className="max-w-5xl mt-8" /> */}
-            {/* <Publication />
-            <Separator orientation="horizontal" className="max-w-5xl mt-8" /> */}
-            {/* <Project />
-            <Separator orientation="horizontal" className="max-w-5xl mt-8" /> */}
-            {/* <Talk /> */}
+            <Separator orientation="horizontal" className="max-w-5xl mt-8" />
+            <Awards />
         </div>
     );
 }

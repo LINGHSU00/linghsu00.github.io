@@ -1,5 +1,5 @@
 import * as React from "react";
-import { User, Clapperboard, Wrench, LibraryBig, Music, Newspaper } from "lucide-react";
+import { User } from "lucide-react";
 
 import { DarkModeToggleButton } from "@/components/mode-toggle";
 import { NavMain } from "@/components/nav-main";
